@@ -10,7 +10,7 @@ import { AuthModule } from './auth/auth.module';
       envFilePath: '.env',
       isGlobal: true,
     }),
-    MongooseModule.forRoot(process.env.DB_URI),
+    MongooseModule.forRoot('mongodb+srv://TT_516:TT_User@tt.puerwqy.mongodb.net/?retryWrites=true&w=majority&appName=TT'),
     TaskModule,
     AuthModule,
   ],
