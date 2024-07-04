@@ -34,6 +34,4 @@ export class TaskService {
     currentTask.save();
     return currentTask;
   }
-
-  
 }

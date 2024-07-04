@@ -3,7 +3,7 @@ import { AuthService } from './auth.service';
 import { SignUpDto } from './dto/singup-dto';
 import { LoginDto } from './dto/login-dto'; 
 
-@Controller('tasktrackerbackend-production-01f5.up.railway.app/auth')
+@Controller('auth')
 export class AuthController {
     constructor(private authService: AuthService) { }
 
