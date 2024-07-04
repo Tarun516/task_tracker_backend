@@ -7,6 +7,8 @@ async function bootstrap() {
 
   const corsOptions: CorsOptions = {
     origin: [
+      'https://task-tracker-frontend-sandy.vercel.app/',
+      'http://task-tracker-frontend-sandy.vercel.app/',
       'https://localhost:8080',
       'http://localhost:8080',
       'https://localhost:8000',
