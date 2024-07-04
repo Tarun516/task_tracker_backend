@@ -1,9 +1,9 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { SignUpDto } from './dto/singup-dto';
-import { LoginDto } from './dto/login-dto'; // Corrected typo in import
+import { LoginDto } from './dto/login-dto'; 
 
-@Controller('auth')
+@Controller('tasktrackerbackend-production-01f5.up.railway.app/auth')
 export class AuthController {
     constructor(private authService: AuthService) { }
 
